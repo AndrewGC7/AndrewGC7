@@ -1,0 +1,188 @@
+/* Fuente de la pagina */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Barra de navegacion */
+nav li{
+    color: aqua;
+    display: inline-block;
+    margin: 10px auto;
+    width: 16%;
+}
+
+nav a{
+    color: aqua;
+    text-decoration: none;
+}
+
+
+
+nav{
+    padding: 15px;
+    width: 940px;
+    margin: auto;
+}
+
+
+/* Header */
+header{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background: #020111;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.caja{
+    width: 940px;
+    padding: 0 20px 20px 20px;
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+
+#banner{
+    width: 940px;
+    
+    
+}
+
+.titulo{
+    background: lightgray;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+}
+/* Footer */
+footer{
+    background: #333333;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0 0 0;
+}
+
+.logo-pie{
+    height: 200px;
+    padding: 20px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+
+/* Roster */
+
+
+
+.jugadores{
+    width: 940px
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.jugadores a{
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+.andrew{
+    width: 300px;
+    height: 300px;
+    background: url(imagenes/AndrewCara.png);
+    background-size: 300px 300px;
+    display: inline-block;
+    
+}
+
+.andrew:hover{
+    background: url(imagenes/AndrewTexto.png);
+    background-size: 300px 300px;
+    transition: 1s;
+    
+}
+
+.ranmita{
+    width: 300px;
+    height: 300px;
+    background: url(imagenes/RanmitaCara.png);
+    background-size: 300px 300px;
+    display: inline-block;
+}
+
+.ranmita:hover{
+    background: url(imagenes/RanmitaTexto.png);
+    background-size: 300px 300px;
+    transition: 1s;
+}
+
+.gabo{
+    width: 300px;
+    height: 300px;
+    background: url(imagenes/GaboCara.png);
+    background-size: 300px 300px;
+    display: inline-block;
+}
+
+.gabo:hover{
+    background: url(imagenes/GaboTexto.png);
+    background-size: 300px 300px;
+    transition: 1s;
+}
+
+.kokoro{
+    width: 300px;
+    height: 300px;
+    background: url(imagenes/KokoroCara.png);
+    background-size: 300px 300px;
+    display: inline-block;
+}
+
+.kokoro:hover{
+    background: url(imagenes/KokoroTexto.png);
+    background-size: 300px 300px;
+    transition: 1s;
+}
+
+.galileo{
+    width: 300px;
+    height: 300px;
+    background: url(imagenes/GalileoTexto.png);
+    background-size: 300px 300px;
+    display: inline-block;
+}
+
+.galileo:hover{
+    background: url(imagenes/GalileoTexto.png);
+    background-size: 300px 300px;
+    transition: 1s;
+}
+
+.jabu{
+    width: 300px;
+    height: 300px;
+    background: url(imagenes/JabuTexto.png);
+    background-size: 300px 300px;
+    display: inline-block;
+}
+
+.jabu:hover{
+    background: url(imagenes/JabuTexto.png);
+    background-size: 300px 300px;
+    transition: 1s;
+}
+

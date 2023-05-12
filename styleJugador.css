@@ -1,0 +1,218 @@
+/* Fuente de la pagina */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Barra de navegacion */
+nav li{
+    color: aqua;
+    display: inline-block;
+    margin: 10px auto;
+    width: 16%;
+}
+
+nav a{
+    color: aqua;
+    text-decoration: none;
+}
+
+
+
+nav{
+    padding: 15px;
+    width: 940px;
+    margin: auto;
+}
+
+
+/* Header */
+header{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background: #020111;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.caja{
+    width: 940px;
+    padding: 0 20px 20px 20px;
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+
+#banner{
+    width: 940px;
+    
+    
+}
+
+.titulo{
+    background: lightgray;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+}
+/* Footer */
+footer{
+    background: #333333;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0 0 0;
+}
+
+.logo-pie{
+    height: 200px;
+    padding: 20px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+
+/* Jugador */
+
+.cabeza{
+    
+    margin: 0 auto;
+    padding: 2em 0;
+    background: lightgray;
+    
+}
+
+.contenido-cabeza{
+    width: 90%;
+    
+    margin: 0 auto;
+    
+    
+}
+
+.avatar{
+    width: 400px;
+    display: inline-block;
+    padding: 20px
+    
+}
+
+.lista{
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    vertical-align: 100px;
+}
+
+
+
+legend{
+    font-size: 4em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.descripcion-cabeza{
+    font-size: 2em;
+    display: inline;
+}
+
+.descripcion-cabeza p{
+   
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Juegos */
+
+.juegos{
+    width: 960px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.botones{
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.botones img{
+    width: 100px;
+}
+
+.boton{
+    width: auto;
+    margin: 0 auto;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.estadisticas{
+    display: inline;
+}
+
+.incisos{
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top; 
+    width: 430px;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.incisos ul{
+    display: inline;
+    line-height: 2;
+    font-size: 1em;
+
+}
+
+.incisos p{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.img-lista{
+    width: 430px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.comentario{
+    display: inline;
+}
+
+.img-pw{
+    width: 430px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.comentario-texto{
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top; 
+    width: 430px;
+    font-weight: bold;
+    font-size: 19px;
+}    

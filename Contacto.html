@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Zatanacos Esports</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styleIndex.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="roster.html">Roster</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="merch.html">Merch</a></li>
+            </nav>
+            <div class="caja">
+                <img id="banner" src="imagenes/Bannerzatanacos.png">
+            </div>
+        </header>
+
+        <main>
+            
+            <h1></h1>
+            <form>
+                <label for="nombreapellido">Nombre y apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
+
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" class="input-padron" required placeholder="email@placeholder">
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="10 Digitos">
+                
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required>
+                </textarea>
+                
+                <fieldset>
+                    <legend>¿Como le gustaria que lo contactemos?</legend>
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>    
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de la Barberia Alura?</label>
+
+                <input class="enviar" type="submit" value="Enviar formulario">
+            </form>
+        </main>
+
+        <footer>
+            <img class="logo-pie" src="imagenes/Copia de Retro Vintage Football Club Badge Logo.png">
+            <p class="copyright">&copy Copyright Zatanacos Esports - 2023</p>
+        </footer>
+    </body>
+</html>

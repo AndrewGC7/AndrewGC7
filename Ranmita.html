@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Zatanacos Esports</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styleJugador.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="roster.html">Roster</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="merch.html">Merch</a></li>
+            </nav>
+            <div class="caja">
+                <img id="banner" src="imagenes/Bannerzatanacos.png">
+            </div>
+        </header>
+
+        <section class="juegos">
+            <div class="botones">
+                <button class="boton" onclick="openCity('Paris')"><img src="imagenes/miecraft logo 200px.png"></button>
+                <button class="boton" onclick="openCity('Tokyo')"><img src="imagenes/Rocket logo 200px.png"></button>
+                <button class="boton" onclick="openCity('Monclova')"><img src="imagenes/logo512.png"></button>
+            </div>
+              
+            <div id="Paris" class="w3-container city">
+                <section class="estadisticas">                       
+                    <div class="incisos">
+                        <h2>Minecraft</h2>
+                        <ul>
+                            <li>Horas jugadas: <p>15000 horas.</p></li>
+                            <li>Especialidad: <p> Aventura.</p></li>
+                            <li>Item favorito: <p> Espada de diamante.</p></li>
+                            <li>Tiempo en competitivo: <p> 2 años.</p></li>
+                        </ul>
+                    </div><img class="img-lista" src="imagenes/Creeper steve.jpg">
+                </section>         
+                <section class="comentario">
+                    <video class="img-pw" controls>
+                        <source src="imagenes/Gano ranmitaa.mp4" type="video/mp4">
+                    </video>
+                    <p class="comentario-texto">
+                        Desde que empeze a jugar minecraft siempre me gusto mucho la aventura, andar buscando dungeons y minas para pelear con enemigos y encontrar cosas en cofres. No me gusta jugar con mods, siento que le quitan al juego en lugar de agragarle, yo prefiero rolear y explorar. 
+                    </p>
+                </section>    
+            </div>
+              
+            <div id="Tokyo" class="w3-container city" style="display:none">
+                <section class="estadisticas">                       
+                    <div class="incisos">
+                        <h2>Rocket League</h2>
+                        <ul>
+                            <li>Partidos jugados: <p> 4209 partidos.</p></li>
+                            <li>Goles: <p> 4921 goles.</p></li>
+                            <li>Salvadas: <p> 3657 salvadas.</p></li>
+                            <li>Asistencias: <p> 1908 asistencias.</p></li>
+                        </ul>
+                    </div><img class="img-lista" src="imagenes/Rocket-League-Wallpaper-7.jpeg">
+                </section>         
+                <section class="comentario">
+                    <video class="img-pw" controls>
+                        <source src="imagenes/Clip1andre.mp4" type="video/mp4">
+                    </video>
+                    <video class="img-pw" controls>
+                        <source src="imagenes/clip2andrew.mp4" type="video/mp4">
+                    </video>
+                   
+                </section>    
+            </div>
+
+            <div id="Monclova" class="w3-container city" style="display:none">
+                <section class="estadisticas">                       
+                    <div class="incisos">
+                        <h2>Phasmophobia</h2>
+                        <ul>
+                            <li>Horas jugadas: <p> 150 horas.</p></li>
+                            <li>Mision favorita: <p> Campamento.</p></li>
+                            <li>Objeto favorito: <p> Libro.</p></li>
+                            <li>Tiempo en competitivo: <p> 1 año.</p></li>
+                        </ul>
+                    </div><img class="img-lista" src="imagenes/phasmo.png">
+                </section>         
+                <section class="comentario">
+                    <video class="img-pw" controls>
+                        <source src="imagenes/Foto phasmo.mp4" type="video/mp4">
+                    </video>
+                    <p class="comentario-texto">
+                        Me gustan mucho los juegos de miedo, me llenan e adrenalina. Normalmente juego solo porque un amigo con el que jugaba ya no quiere jugar de noche porque le da miedo, pero el se lo pierde.                     </p>
+                </section>    
+            </div>
+              
+            <script>
+                function openCity(cityName) {
+                var i;
+                var x = document.getElementsByClassName("city");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                document.getElementById(cityName).style.display = "block";  
+                }
+            </script>
+
+        </section>
+        <footer>
+            <img class="logo-pie" src="imagenes/Copia de Retro Vintage Football Club Badge Logo.png">
+            <p class="copyright">&copy Copyright Zatanacos Esports - 2023</p>
+        </footer>
+    </body>
+ </html>

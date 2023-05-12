@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Zatanacos Esports</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styleIndex.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="roster.html">Roster</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="merch.html">Merch</a></li>
+            </nav>
+            <div class="caja">
+                <img id="banner" src="imagenes/Bannerzatanacos.png">
+            </div>
+        </header>
+        <div class="w3-bar w3-black">
+            <button class="w3-bar-item w3-button" onclick="openCity('London')"><img src="imagenes/cabello.jpg"></button>
+            <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
+            <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Tokyo</button>
+          </div>
+          
+          <div id="London" class="w3-container city">
+            <h2><img src="imagenes/cabello.jpg"></h2>
+            <p>London is the capital city of England.</p>
+          </div>
+          
+          <div id="Paris" class="w3-container city" style="display:none">
+            <h2>Paris</h2>
+            <p>Paris is the capital of France.</p> 
+          </div>
+          
+          <div id="Tokyo" class="w3-container city" style="display:none">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+
+          <script>
+            function openCity(cityName) {
+              var i;
+              var x = document.getElementsByClassName("city");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              document.getElementById(cityName).style.display = "block";  
+            }
+            </script>
+        <footer>
+            <img class="logo-pie" src="imagenes/Copia de Retro Vintage Football Club Badge Logo.png">
+            <p class="copyright">&copy Copyright Zatanacos Esports - 2023</p>
+        </footer>
+    </body>
+ </html>
